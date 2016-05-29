@@ -1,0 +1,23 @@
+#title {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  text-align: center;
+}
+
+.sub-title {
+	display: inline-block;
+}
+
+#map, #mapTwo {
+  width: 500px;
+  height: 400px;
+  background-color: #CCC;
+  margin: 0 auto;
+}
+
+#map {
+	float: left;
+	display: inline-block;
+	margin-left: 125px;
+	clear: both;
+}
