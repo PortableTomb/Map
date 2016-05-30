@@ -5,17 +5,27 @@
     <meta charset="utf-8">
     <title>Week 7 - Google Maps</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link href='https://fonts.googleapis.com/css?family=Meie+Script' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="maps.css">
 </head>
 
 <body>
-    <h1 id="title">Google Maps Integration</h1>
+    <h1 id="title">Trip to Paris, On Google Maps</h1>
+    
+    <!-- <input id="searchbox" class="controls" type="text" placeholder="Search Box"> -->
+    <input id="pac-input" class="controls" type="text" placeholder="Search Box">
     <div id="map"></div>
+    <p></p>
     <div id="mapTwo"></div>
+    <p></p>
+    <button id="trigger-search">Trigger Search</button>
+    
     <!-- <script src="https://maps.googleapis.com/maps/api/js" async defer></script> -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    
     <script src="jsMap.js"></script>
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAglsMxsNcPBzJApIJKwx6zl6p-AwetSPU&callback=initMap" async defer></script>
+    <!-- <script src="jsMapTwo.js"></script> -->
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAglsMxsNcPBzJApIJKwx6zl6p-AwetSPU&libraries=places&callback=initAutocomplete" async defer></script>
 
 </body>
 
