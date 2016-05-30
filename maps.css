@@ -8,14 +8,14 @@
 	display: inline-block;
 }
 
-#map, #mapTwo {
-  width: 500px;
+#mapOne, #mapTwo {
+  width: 400px;
   height: 400px;
   background-color: #CCC;
   margin: 0 auto;
 }
 
-#map {
+#mapOne {
 	float: left;
 	display: inline-block;
 	margin-left: 125px;
